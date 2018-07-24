@@ -16,3 +16,9 @@ function DNAtoRNA(dna) {
     }
     return rna.join('')
 }
+
+// or 
+
+function DNAtoRNA(dna) {
+    return dna.replace(/T/g, 'U')
+}
